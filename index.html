@@ -3,17 +3,28 @@
 <head>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link rel="stylesheet" href="style.css"> <!--Imports style sheet-->
-
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  
 <header>
-  <img class="backgroundimage" src="./images/background.jpg" alt="image not found">
+  <ul class="socialbar">
+    <li><a href="./pdfs/Faraz Khalid CV.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
+    <li><a href="https://www.linkedin.com/in/faraz-khalid2002/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+    <li><a href="https://github.com/farazovo" target="_blank" rel="noopener noreferrer">Github</a></li>
+  </ul>
+  <picture class="backgroundimage">
+    <source class="backgroundimage" media="(min-width: 800px)" srcset="./images/background.jpg"><!--looking for device width larger than 640 pixels then use desktop image-->
+    <img class="backgroundimage" src="./images/background2.jpg" alt="image not found">
+  </picture>  
+  </div>
   <div class="headertxt">
     <h1>Faraz Khalid</h1>
     <h2>Computer Scientist</h2>
   </div>
 </header>
+
 <div class="bodytxt">
   <article>
     <div class="imagecontainer">

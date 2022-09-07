@@ -4,10 +4,10 @@
 } 
 
 html, body{
-    background: hsl(234, 47%, 66%);
+    background: hsl(241, 100%, 8%);
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
-
 header{
     background-color: aqua;
     height: 100%;
@@ -21,13 +21,35 @@ header{
 .backgroundimage{
     height: 100%;
     width: 100%;
-    border-radius: 10px;
 }
+.socialbar{
+    position: absolute;
+    list-style-type: none;
+    background-color: rgba(9, 14, 80, 0.192);
+    top: 5px;
+}
+li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgba(17, 17, 17, 0.411);
+}
+
 .headertxt{
     position: absolute;
     text-align: center;
-    color: white;
-    margin-bottom: 225px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 230px;
+    padding:10px;
 }
 h1{
     font-size: 50px;
