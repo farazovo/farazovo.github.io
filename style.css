@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    background: hsl(234, 47%, 66%);
+}
+
+header{
+    background-color: #26216b;
+    margin-top: 10px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+article{
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    height:100%;
+    position: relative;
+}
+.bodytxt{
+    padding:20px;
+    background: hsl(0, 0%, 100%);
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.projectdetails{
+    float: left;
+    margin: 10px;
+}
+.date{
+    margin-left: 10px;
+    float: left;
+    font-size: 20px;
+}
+.imagecontainer{
+    max-width: 100%;
+    float: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.vl {
+    border-left: 2px solid black;
+    margin-left: 22px;
+    height:100%;
+    position: absolute;
+  }
+@media screen and (max-width:700px)
+{
+    .bodytxt{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

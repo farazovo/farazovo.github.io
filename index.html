@@ -2,59 +2,49 @@
 <html>
 <head>
 
-<style>
-body {
-  background: hsl(212, 45%, 89%);
-}
-.container {
-  display: block;
-  margin: auto;
-  width: 295px;
-  padding: 15px;
-  border-radius: 25px;
-  background: white;
-}
-.center {
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  width: 325px;
-  border-radius: 25px;
-  background: white;
-}
-.txtbox {
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-bottom: 30px;
-}
-
-p {
-  text-align: center;
-  font-size: 15px;
-  font-family: 'Outfit', sans-serif;
-  font-weight:400;
-  color: hsl(220, 15%, 55%);
-}
-.bold{
-  font-weight:700;
-  color: hsl(218, 44%, 22%)
-}
-</style>
+<link rel="stylesheet" href="style.css"> <!--Imports style sheet-->
 
 </head>
 
 <body>
+<header>
+  <h1>Faraz Khalid<h1>
+  <h2>Computer Scientist</h2>
+</header>
+<div class="bodytxt">
+  <article>
+    <div class="imagecontainer">
+      <img src="./images/symbol.jpg" alt="image not found"><!--make a line go over this-->
+    </div>
+    <div class="vl"></div>
+    <div class="date">
+      <p>Aug 2022</p>
+    </div>
+    <div class="projectdetails">
+      <h3>CV Webpage</h3>
+      <p>
+        This Website!<br>
+        Using CSS and  HTML in order to design a profesional webpage designing the page to be modular and user freindly to allow new projects to be added withe ease
+      </p>
+    </div>
+  </article>
 
-<div class=center>
-  <img src="images\image-qr-code.png" alt="image not found" class="container">
-  <div class="txtbox">
-  <p class=bold>Improve your front-end skills by building projects</p>
-  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-  </div>
-</div>
+  <article>
+    <div class="imagecontainer">
+      <img src="./images/symbol.jpg" alt="image not found"><!--make a line go over this-->
+    </div>
+    <div class="vl"></div>
+    <div class="date">
+      <p>date</p>
+    </div>
+    <div class="projectdetails">
+      <h3>project title</h3>
+      <p>
+        project description<br>
+        hi<br>hi<br>hi<br>hi<br>hi
+      </p>
+    </div>
+  </article>
 
 </body>
 
