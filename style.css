@@ -55,7 +55,7 @@ article{
     height:100%;
     position: absolute;
   }
-@media screen and (max-width:700px)
+@media screen and (max-width: 600px)
 {
     .bodytxt{
         margin-left: 0px;
