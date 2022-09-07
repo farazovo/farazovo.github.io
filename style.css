@@ -3,21 +3,35 @@
     padding: 0;
 } 
 
-body{
+html, body{
     background: hsl(234, 47%, 66%);
+    height: 100%;
 }
 
 header{
-    background-color: #26216b;
-    margin-top: 10px;
-    padding: 20px;
+    background-color: aqua;
+    height: 100%;
+    
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    align-items:center;
+    justify-content:center;
+}
+.backgroundimage{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.headertxt{
+    position: absolute;
+    text-align: center;
+    color: white;
 }
 h1{
-    text-align: center;
     font-size: 50px;
 }
 h2{
-    text-align: center;
     font-size: 25px;
 }
 article{
@@ -40,7 +54,7 @@ article{
 .date{
     margin-left: 10px;
     float: left;
-    font-size: 20px;
+    font-size: 15px;
 }
 .imagecontainer{
     max-width: 100%;
@@ -54,7 +68,7 @@ article{
     margin-left: 22px;
     height:100%;
     position: absolute;
-  }
+}
 @media screen and (max-width: 600px)
 {
     .bodytxt{
