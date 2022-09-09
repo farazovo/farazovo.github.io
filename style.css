@@ -4,16 +4,16 @@
 } 
 
 body{
-    background: hsl(241, 100%, 8%);
+    background: #282828;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 20px;
 }
 header{
     height: 100vh;
     
-    display: flex;
     width: 100%;
     border-radius: 10px;
+    display: flex;
     align-items:center;
     justify-content:center;
 }
@@ -82,8 +82,8 @@ article{
 }
 .bodytxt{
     padding:20px;
-    background: hsl(0, 0%, 100%);
-    margin: 0 80px 5px 80px;
+    background: #636363;
+    margin: 0 80px 60px 80px;
     display: block;
     border-radius: 0px 0px 25px 25px;
 }
@@ -93,7 +93,8 @@ article{
     width: 100%;
     box-shadow: 25px 25px rgba(0,0,0,.15);
     padding: 10px;
-    background: hsl(0, 0%, 95%);;
+    background: #a1a1a1;
+    color: black;
 }
 .date{
     margin-left: 10px;
@@ -101,6 +102,10 @@ article{
     font-size: 15px;
     width: 80px;
     display: block;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.15);
+    background: #88888846;
+    padding: 5px;
+    color: black;
 }
 .imagecontainer{
     max-width: 100%;
@@ -118,10 +123,24 @@ article{
 i{
     font-size: 15px;
 }
+.welcome{
+    height: 150px;
+    background-color:#00013b;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 40px;
+}
+.welcometxt{
+    background-color: 	#a1a1a1;
+    color: #363636;
+    padding: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.459);
+}
 
 @media screen and (max-width: 600px)
 {
     .bodytxt{
-        margin: 0 0px 10px 0px !important;
+        margin: 0 10px 40px 10px;
     }
 }
