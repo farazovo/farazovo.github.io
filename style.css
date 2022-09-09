@@ -53,6 +53,9 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+ul {
+    list-style-type: none;
+}
 li a:hover {
     background-color: rgba(17, 17, 17, 0.411);
 }
@@ -80,13 +83,17 @@ article{
 .bodytxt{
     padding:20px;
     background: hsl(0, 0%, 100%);
-    margin: 0 80px 5px 80px !important;
+    margin: 0 80px 5px 80px;
     display: block;
+    border-radius: 0px 0px 25px 25px;
 }
 .projectdetails{
     float: left;
     margin: 10px;
     width: 100%;
+    box-shadow: 25px 25px rgba(0,0,0,.15);
+    padding: 10px;
+    background: hsl(0, 0%, 95%);;
 }
 .date{
     margin-left: 10px;
@@ -111,6 +118,7 @@ article{
 i{
     font-size: 15px;
 }
+
 @media screen and (max-width: 600px)
 {
     .bodytxt{
